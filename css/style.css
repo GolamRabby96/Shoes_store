@@ -217,19 +217,10 @@ body{
     .upcoming-text {
         top: 280px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+ 
+  }
+  @media (max-width: 430px){
+    .navbar-brand-image img{
+        height: 25px ;
+    }
   }
