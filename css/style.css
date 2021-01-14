@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.headername {
+    margin: 50px 0 30px 0;
+    color: black;
+    font-weight: 700;
+    text-shadow: 2x 2x springgreen;
+}
+.slider-row h1 {
+    color: black;
+    font-weight: 700;
+    text-shadow: 2x 2x springgreen;
+}
+.slider-row span {
+    color: tomato;
+}
+.headername span{
+    color: tomato;
+}
+.custom-navbar {
+    background-color: rgba(224, 224, 224, 0.74);
+}
+.navbar-brand-image img{
+    height: 40px ;
+}
+.nike-text-section-edit {
+    padding-left: 10%;
+}
+.header-container {
+    background-color: rgb(240, 214, 209);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.nike-text-section-edit h1{
+    font-weight: 700;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.nike-text {
+    color: tomato;
+}
+/* ..................  */
+.panda-col-edit{
+
+}
+.panda-s {
+    border-radius: 20px;
+    padding-top: 15px;
+    border: 0;
+}
+.card-img-edit {
+    padding: 50px;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(182, 182, 182);
+    border-radius: 20px;
+}
+
+.panda-sf{
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    color: tomato;
+}
+.panda-sf3 {
+    padding-top: 15px;
+}
+/* .........................  */
+.fmain {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.fleft {
+    position: relative;
+    width:40%;
+    padding-right: 40px;
+}
+.fright {
+    position: relative;
+    width:60%;
+}
+.fleft img{
+    width: 80px;
+}
+.fright {
+    padding-left: 50px;
+    padding-top: 60px;
+
+}
+.fright img {
+    width: 100%;
+    height: 400px;
+}
+/* ............  */
+.slider-row {
+    position: relative;
+}
+.upcoming-text {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+
+@media (max-width:998px){
+    .fmain {
+        /* justify-content: space-between !important; */
+        justify-content: space-around;
+    }
+  
+    .fleft {
+        order:2;
+        display: block;
+        width: 100%;
+    }
+  
+    .fright {
+        order:1;
+        width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+  .top-row-edit {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .top-lcol-edit{
+    position: relative;
+  }
+  .top-rcol-edit {
+    position: relative;
+  }
+
+  @media  (max-width:998px){
+    .top-row-edit {
+        justify-content: space-between;
+    }
+  
+    .top-lcol-edit {
+        order:2;
+    }
+  
+    .top-rcol-edit {
+        order:1;
+    }
+  }
