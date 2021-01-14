@@ -1,23 +1,34 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.top-row-edit {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .top-lcol-edit{
+    position: relative;
+  }
+  .top-rcol-edit {
+    position: relative;
+  }
 .headername {
     margin: 50px 0 30px 0;
     color: black;
     font-weight: 700;
     text-shadow: 2x 2x springgreen;
 }
+.headername span{
+    color: tomato;
+}
 .slider-row h1 {
     color: black;
     font-weight: 700;
-    text-shadow: 2x 2x springgreen;
 }
 .slider-row span {
     color: tomato;
 }
-.headername span{
-    color: tomato;
-}
+
 .custom-navbar {
     background-color: rgba(224, 224, 224, 0.74);
 }
@@ -102,9 +113,56 @@ body{
     top: 200px;
 }
 
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .nike-text-section-edit {
+        padding-left: 2%;
+    }
+    .nike-text-section-edit h1{
+        font-weight: 700;
+        font-size: 2em;
+    }
+    .headername {
+        margin: 30px 0 10px 0;
+        font-weight: 700;
+        text-align: center;
+    }
+    .headername span{
+        color: tomato;
+    }
+    .card-img-edit {
+        padding: 5px;
+    }
+    .card-edit-text {
+        font-size: 14px;
+    }
+    .cart-button-edit {
+        font-size: 12px;
+    }
+    .shoe-price {
+        padding-top: 8px;
+        font-size: 22px;
+    }
+    .fleft {
+        padding-right: 0px;
+    }
+    .upcoming-text {
+        top: 60px;
+    }
+    .fright {
+        padding-left: 0px;
+    }
+
+
+
+
+
+
+}
 @media (max-width:998px){
+
     .fmain {
-        /* justify-content: space-between !important; */
         justify-content: space-around;
     }
   
@@ -118,27 +176,6 @@ body{
         order:1;
         width: 100%;
     }
-  }
-
-
-
-
-
-
-
-  .top-row-edit {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-  }
-  .top-lcol-edit{
-    position: relative;
-  }
-  .top-rcol-edit {
-    position: relative;
-  }
-
-  @media  (max-width:998px){
     .top-row-edit {
         justify-content: space-between;
     }
@@ -150,4 +187,49 @@ body{
     .top-rcol-edit {
         order:1;
     }
+  }
+
+  @media (min-width: 300px) and (max-width: 767.99px){
+    .nike-text-section-edit {
+        padding-left: 0;
+        text-align: center;
+    }
+    .nike-text-section-edit h1{
+        font-weight: 600;
+        font-size: 2em;
+    }
+    .header-container {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    .headername {
+        text-align: center;
+    }
+    .fright img {
+        height: 250px;
+    }
+    .fleft {
+        padding-right: 0px;
+    }
+    .fright {
+        padding-left: 0px;
+    }
+    .upcoming-text {
+        top: 280px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
   }
